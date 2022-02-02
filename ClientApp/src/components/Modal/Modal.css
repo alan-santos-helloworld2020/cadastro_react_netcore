@@ -1,0 +1,10 @@
+.modal { width: 50% !important ; height: 60% !important ; } 
+.modal label {color: red !important;}
+.btn[type="button"] {margin-right: 15px;}
+
+
+@media screen and (max-width: 500px) {
+    .modal { width: 95% !important ; height: 75% !important ; }
+    .btn {width: 100% !important;} 
+    .modal label {color: red !important;}
+}
